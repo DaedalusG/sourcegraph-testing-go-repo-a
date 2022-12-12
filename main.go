@@ -15,3 +15,7 @@ func FunctionInRepoA(people []Person) string {
 
 	return gorepob.FunctionInRepoB(names)
 }
+
+func privateFunction(num int) string {
+	return fmt.Sprintf("this is a private Function. num=%d", num)
+}
